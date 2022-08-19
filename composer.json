@@ -1,23 +1,24 @@
 {
-	"name" : "zymeli/php-basic-console-logger",
-	"description" : "forked from https://gitlab.com/php-extended/php-basic-console-logger , A very basic psr-3 compliant logger to log activity in the console",
-	"type" : "library",
-	"keywords" : [
-		"php",
-		"basic",
-		"psr-3",
-		"console",
-		"logger"
-	],
-	"homepage" : "https://github.com/zymeli/php-basic-console-logger",
-	"license" : "MIT",
-	"require" : {
-		"php" : ">=8.0",
-		"psr/log" : "^1 || ^2 || ^3"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"zymeli\\BasicConsoleLogger\\" : "src"
-		}
-	}
+    "name" : "zymeli/php-basic-console-logger",
+    "description" : "forked from https://gitlab.com/php-extended/php-basic-console-logger , A very basic psr-3 compliant logger to log activity in the console",
+    "type" : "library",
+    "keywords" : [
+        "php",
+        "basic",
+        "psr-3",
+        "console",
+        "logger"
+    ],
+    "homepage" : "https://github.com/zymeli/php-basic-console-logger",
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=8.0",
+        "ext-mbstring": "*",
+        "psr/log" : "^1 || ^2 || ^3"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "zymeli\\BasicConsoleLogger\\" : "src"
+        }
+    }
 }
